@@ -82,4 +82,4 @@ spec:
     type: NodePort
   stack: nodejs-express
   version: 1.0.0
-  imagePullPolicy: Always
+  "Image Pull Policy": "Always"
