@@ -52,6 +52,7 @@ metadata:
   name: quote-frontend
 spec:
   applicationImage: dev.local/quote-frontend:1.4
+  pullPolicy: Always
   createKnativeService: false
   env:
   - name: BACKEND_URL
@@ -82,4 +83,3 @@ spec:
     type: NodePort
   stack: nodejs-express
   version: 1.0.0
-  pullPolicy: Always
