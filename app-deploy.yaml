@@ -59,7 +59,7 @@ metadata:
     stack.appsody.dev/version: 0.2.10
   name: quote-frontend
 spec:
-  applicationImage: dev.local/quote-frontend
+  applicationImage: dev.local/quote-frontend:1.6
   pullPolicy: Always
   createKnativeService: false
   expose: true
