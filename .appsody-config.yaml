@@ -1,2 +1,2 @@
 project-name: quote-frontend
-stack: default-route-openshift-image-registry.apps.ocpv4.internal.net/kabanero/nodejs-express:0.2
+stack: docker.io/kabanero/nodejs-express:0.2
